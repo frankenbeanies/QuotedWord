@@ -1,0 +1,8 @@
+<div class="card p-3" *ngIf="quote">
+    <blockquote class="card-block card-blockquote">
+        <p name="quote">"{{ quote.quote }}"</p>
+        <footer>
+            <small class="text-muted" name="author">- {{ quote.author }}</small>
+        </footer>
+    </blockquote>
+</div>

@@ -1,0 +1,9 @@
+<div class="container-fluid">
+  <div class="jumbotron mt-3">
+    <h1 class="display-3">Quoted Word</h1>
+    <p class="lead">Words to live by. Or not. Most of these guys are dead anyway; what do they know?</p>
+  </div>
+  <div class="card-columns">
+    <quote *ngFor="let quote of quotes" [quote]="quote"></quote>
+  </div>
+</div>
